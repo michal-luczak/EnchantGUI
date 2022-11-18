@@ -1,0 +1,432 @@
+# Dostępne:
+#  - SWORD
+#  - PICKAXE
+#  - AXE
+#  - SHOVEL
+#  - HOE
+#  - HELMET
+#  - CHESTPLATE
+#  - LEGGINGS
+#  - BOOTS
+#  - BOW
+#  - CROSSBOW
+#  - TRIDENT
+przedmioty-ktore-mozna-enchantowac:
+  - SWORD
+  - PICKAXE
+  - AXE
+  - SHOVEL
+  - HOE
+  - HELMET
+  - CHESTPLATE
+  - LEGGINGS
+  - BOOTS
+  - BOW
+  - CROSSBOW
+  - TRIDENT
+
+# Koszty enchantów (lvl i biblioteczki)
+# Niedozwolone customowe enchanty, max biblioteczek to 35
+enchanty:
+  sharpness:
+    1:
+      potrzebne-biblioteczki: 10
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 30
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 35
+      zablokowany: false
+  fire-aspect:
+    1:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 30
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  unbreaking:
+    1:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 30
+      zablokowany: false
+  knockback:
+    1:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  looting:
+    1:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 30
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  bane-of-arthropods:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 30
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  smite:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 10
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 15
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 30
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  efficiency:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 20
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 30
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 35
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 40
+      zablokowany: false
+  fortune:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 30
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 40
+      zablokowany: false
+  silk-touch:
+    1:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 35
+      zablokowany: false
+  impaling:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 10
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 15
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 35
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 50
+      zablokowany: false
+  loyalty:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 35
+      zablokowany: false
+  riptide:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 30
+      zablokowany: false
+  channeling:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 20
+      zablokowany: false
+  power:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 20
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 45
+      zablokowany: false
+    5:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 50
+      zablokowany: false
+  flame:
+    1:
+      potrzebne-biblioteczki:
+      potrzebny-lvl:
+      zablokowany: false
+  punch:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+  infinity:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+  multishot:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+  piercing:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 45
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 50
+      zablokowany: false
+  quick-charge:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 45
+      zablokowany: false
+  protection:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 25
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 35
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 45
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 50
+      zablokowany: false
+  aqua-affinity:
+    1:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 25
+      zablokowany: false
+  blast-protection:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+  fire-protection:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+  respiration:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+  projectile-protection:
+    1:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 10
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 15
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+  thorns:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 15
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 20
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 25
+      zablokowany: false
+  feather-falling:
+    1:
+      potrzebne-biblioteczki: 15
+      potrzebny-lvl: 20
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 20
+      potrzebny-lvl: 30
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 35
+      zablokowany: false
+    4:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 40
+      zablokowany: false
+  depth-strider:
+    1:
+      potrzebne-biblioteczki: 25
+      potrzebny-lvl: 20
+      zablokowany: false
+    2:
+      potrzebne-biblioteczki: 30
+      potrzebny-lvl: 25
+      zablokowany: false
+    3:
+      potrzebne-biblioteczki: 35
+      potrzebny-lvl: 40
+      zablokowany: false

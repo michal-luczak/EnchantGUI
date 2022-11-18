@@ -1,0 +1,5 @@
+name: EnchantGUI
+version: '${project.version}'
+main: me.taison.enchantgui.Main
+api-version: 1.16
+author: Taison
