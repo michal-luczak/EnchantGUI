@@ -22,37 +22,21 @@ public abstract class GUIEnchantingAbstract {
     }
 
     public boolean validateEnchant(Enchantment enchantment, int enchantLvl, int requireBookshelves, int requireLvl) {
-        if (enchantChecker(enchantment)) {
-            if (!enchantLvlChecker(enchantment, enchantLvl)) {
+        if (itemStack.containsEnchantment(enchantment)) {
+            if (itemStack.getEnchantments().get(enchantment) >= enchantLvl) {
                 msg(player, "&cPosiadasz już ten enchant!");
                 return false;
             }
         }
-        if (!lvlChecker(requireLvl)) {
+        if (player.getLevel() < requireLvl) {
             msg(player, "&cNie masz wystarczająco exp'a!");
             return false;
         }
-        if (!bookshelvesChecker(requireBookshelves)) {
+        if (bookshelves < requireBookshelves) {
             msg(player, "&cPostawiono za mało biblioteczek!");
             return false;
         }
         msg(player, "&aEnchant udany!");
         return true;
-    }
-
-    private boolean enchantChecker(Enchantment enchantment) {
-        return itemStack.containsEnchantment(enchantment);
-    }
-
-    private boolean enchantLvlChecker(Enchantment enchantment, int lvl) {
-        return itemStack.getEnchantments().get(enchantment) < lvl;
-    }
-
-    private boolean lvlChecker(int requireLvl) {
-        return player.getLevel() >= requireLvl;
-    }
-
-    private boolean bookshelvesChecker(int requireBookshelves) {
-        return bookshelves >= requireBookshelves;
     }
 }

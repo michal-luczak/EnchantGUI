@@ -1,5 +1,6 @@
 package me.taison.enchantgui.gui;
 
+import me.taison.enchantgui.Main;
 import me.taison.enchantgui.TypeOfInventory;
 import me.taison.enchantgui.gui.guibuilders.*;
 import org.bukkit.Bukkit;
@@ -46,7 +47,7 @@ public class GuiHolder implements InventoryHolder {
         ItemStack redGlass = new ItemStack(Material.RED_STAINED_GLASS_PANE);
         ItemStack greenGlass = new ItemStack(Material.LIME_STAINED_GLASS_PANE);
 
-        if (findBookshelves(clickedBlock.getLocation()) == 35) {
+        if (findBookshelves(clickedBlock.getLocation()) == Main.getPlugin(Main.class).getConfig().getInt("maks-biblioteczek")) {
             for (int i=45; i>=0; i-=9) {
                 inv.setItem(i, greenGlass);
                 inv.setItem(i+8, greenGlass);
